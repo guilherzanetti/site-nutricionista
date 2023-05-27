@@ -7,13 +7,7 @@
 }
 
 body{
-    background-image: url('img/background3banner.png');
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    justify-content: center;
-    align-items: center; 
+    
 }
 
 .margin{
@@ -24,6 +18,15 @@ body{
 
 .content-imc{
     width: 100%;
+    background-image: url('img/background3banner.png');
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    justify-content: center;
+    align-items: center; 
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .box-imc{
@@ -80,11 +83,17 @@ body{
 
 }
 
+.content-imc{
+    padding: 20px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 768px){
 
     .form-imc{
         align-items: center;
+        width: 100%;
         margin-left: 3%;
         margin-right: 3%;
         margin-top: 20px;
@@ -92,4 +101,22 @@ body{
         background-color: rgb(237, 246, 247);
         border-radius: 20px;
     }
+
+    .textbox {
+        font-size: 18px;
+      }
+    
+      .btn-imc {
+        font-size: 18px;
+      }
+
+      h1{
+        font-size: 22px;
+      }
+
+      .margin{
+        margin-left: 3%;
+        margin-right: 3%;
+      }
+      
 }
