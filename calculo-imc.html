@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-imc.css">
+    <title>Calcule seu IMC</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="navbar">
+            <img src="img/PNGLOGO.png" alt="" class="logo">
+            <nav>
+                <a href="" class="btn-nav">Contato</a>
+                <a href="" class="btn-nav">Receitas</a>
+                <a href="calculo-imc.html" class="btn-nav">Calcular IMC</a>
+                <a href="" class="btn-nav consulta">Agendar Consulta</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="responsive-header">
+        <div class="marginbtnresponsive">
+            <div class="box-btn-header">
+                <h1></h1>
+                <button class="btn-header-responsive">=</button>
+            </div>
+            <div class="responsive-options">
+                <a href="" class="btn-nav responseBTN">Contato</a>
+                <a href="" class="btn-nav responseBTN">Receitas</a>
+                <a href="calculo-imc.html" class="btn-nav responseBTN">Calcular IMC</a>
+                <a class="btn-nav responseBTN consultaResponsive">Agendar Consulta</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-imc">
+        <div class="box-imc margin">
+            <form class="form-imc" id="imcForm">
+                <div class="texto-inicial-form">
+                    <h1>Vamos calcular seu IMC</h1>
+                    <p>Para calcular seu IMC, por favor, preencha o formulário corretamente.</p>
+                </div>
+                <div class="form-box">
+                    <input class="textbox" type="text" id="alturaInput" placeholder="Coloque sua altura">
+                    <input class="textbox" type="text" id="pesoInput" placeholder="Coloque seu peso (KG)">
+                    <button class="btn-imc" type="button" onclick="calcularIMC()">Calcular IMC</button>
+                </div>
+                <div class="resultado-imc" id="resultadoIMC" style="display: none;"></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/imc.js"></script>
 </body>
 </html>
