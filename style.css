@@ -48,19 +48,28 @@ header{
     margin-left: 20px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 
-.consulta {
-    border: rgb(3, 0, 67) 2px;
+.btn-zap {
     border-radius: 5px;
     padding: 10px;
-    background-color: #a4d0e0;
-    border: solid rgba(255, 255, 255, 0) 2px;
+    background-color: #12a119;
+    color: #d9eaee;
+    border: solid rgba(4, 99, 11, 0) 2px;
+    align-items: center;
+    border-radius: 20px;
 }
 
-.consulta:hover {
+.wpp-icon-header{
+    margin-bottom: -2px;
+    
+}
+
+.btn-zap:hover {
     transition: 500ms;
-    border: solid rgb(0, 0, 0) 2px;
+    background-color: #3eb744;
+    /* border: solid rgb(0, 0, 0) 2px; */
 }
 
 /* RESPONSIVE HEADER */
@@ -125,7 +134,11 @@ header{
     .consultaResponsive{
         border: none;
         border-radius: 10px;
-        background-color: #a4d0e0;
+        background-color: #00ac25;
+
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
     }
 }
 /* ----------- BANNER ----------- */
