@@ -6,11 +6,7 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-}
-
-p{
+h1, p{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -24,6 +20,9 @@ header{
     background-color:#d9eaee;
     padding-top: 10px;
     padding-bottom: 10px;
+    /* overflow: hidden;
+    position: fixed;
+    width: 100%; */
 }
 
 .logo {

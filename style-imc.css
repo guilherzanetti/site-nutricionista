@@ -6,32 +6,16 @@
     box-sizing: border-box;
 }
 
-body{
-    
-}
 
 .margin{
     margin-left: 13%;
     margin-right: 13%;
 }
 
-
-.content-imc{
-    width: 100%;
-    background-image: url('img/background3banner.png');
-    width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    justify-content: center;
-    align-items: center; 
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
 .box-imc{
     padding: 20px;
 }
+
 
 /* -------- FORM-IMC -------- */
 
@@ -89,6 +73,42 @@ body{
 }
 
 
+
+
+.content-imc{
+    width: 100%;
+    background-image: url('img/background3banner.png');
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    justify-content: center;
+    align-items: center; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* -------- Sobre IMC --------- */
+
+.contentIMC{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imcFOTO{
+    width: 520px;
+    margin: auto;
+    
+    align-items: center;
+    margin: 10px;
+}
+
+.countainer-center{
+    display: flex;
+    justify-content: center;
+}
+
+
 @media only screen and (max-width: 768px){
 
     .form-imc{
@@ -118,5 +138,13 @@ body{
         margin-left: 3%;
         margin-right: 3%;
       }
+
+      .imcFOTO{
+        width: 80%;
+        margin: auto;
+        
+        align-items: center;
+        margin: 10px;
+    }
       
 }
